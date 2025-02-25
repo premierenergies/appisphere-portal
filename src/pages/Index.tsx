@@ -2,27 +2,53 @@
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { ApplicationCard } from "@/components/ApplicationCard";
+import scm from "@/assets/scm.png";
+import leaf from "@/assets/leaf.png";
 
 // Example applications data - replace with your actual applications
 const applications = [
   {
-    title: "HR Portal",
-    description: "Employee management and HR processes dashboard",
-    link: "https://hr.example.com",
-    thumbnail: "https://picsum.photos/seed/hr/800/400"
+    title: "SCM: Supply Chain Management",
+    description: "Manage your supply chain and inventory",
+    link: "https://scm.premierenergiesphotovoltaic.com/",
+    thumbnail: scm
   },
   {
-    title: "Sales Dashboard",
-    description: "Real-time sales tracking and analytics platform",
-    link: "https://sales.example.com",
+    title: "MES: Manufacturing Execution System",
+    description: "Track and manage your manufacturing processes",
+    link: "https://mes.premierenergiesphotovoltaic.com/",
     thumbnail: "https://picsum.photos/seed/sales/800/400"
   },
   {
-    title: "Customer Support",
-    description: "Ticket management and customer service portal",
-    link: "https://support.example.com",
-    thumbnail: "https://picsum.photos/seed/support/800/400"
-  }
+    title: "LEAF: Logistics Enquiry and Finalization",
+    description: "Track and manage your logistics operations",
+    link: "https://leaf.premierenergiesphotovoltaic.com/",
+    thumbnail: leaf
+  },
+  {
+    title: "SPOT: Smart Processing Of Tickets",
+    description: "Manage your issues with speed and transparency via our smart assignment system",
+    link: "https://spot.premierenergies.com/",
+    thumbnail: leaf
+  },
+  {
+    title: "LEAFI: Logistics Enquiry and Finalization for Inbound Logistics",
+    description: "Track and manage your logistics operations for inbound logistics",
+    link: "https://leafi.premierenergiesphotovoltaic.com/",
+    thumbnail: leaf
+  },
+  {
+    title: "QMAP: Quality Map",
+    description: "Real Time Feeed of Module Quality",
+    link: "https://qmap.premierenergies.com/",
+    thumbnail: leaf
+  },
+  {
+    title: "STAMP: Seamless Task Approval & Management Platform",
+    description: "Manage your tasks and approvals seamlessly",
+    link: "https://stamp.premierenergies.com/",
+    thumbnail: leaf
+  },
 ];
 
 const Index = () => {
