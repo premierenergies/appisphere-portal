@@ -4,6 +4,8 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 import { ApplicationCard } from "@/components/ApplicationCard";
 import scm from "@/assets/scm.png";
 import leaf from "@/assets/leaf.png";
+import spot from "@/assets/spot.png";
+import leafi from "@/assets/leafi.png";
 
 // Example applications data - replace with your actual applications
 const applications = [
@@ -29,13 +31,13 @@ const applications = [
     title: "SPOT: Smart Processing Of Tickets",
     description: "Manage your issues with speed and transparency via our smart assignment system",
     link: "https://spot.premierenergies.com/",
-    thumbnail: leaf
+    thumbnail: spot
   },
   {
     title: "LEAFI: Logistics Enquiry and Finalization for Inbound Logistics",
     description: "Track and manage your logistics operations for inbound logistics",
     link: "https://leafi.premierenergiesphotovoltaic.com/",
-    thumbnail: leaf
+    thumbnail: leafi
   },
   {
     title: "QMAP: Quality Map",
